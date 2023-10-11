@@ -1,0 +1,63 @@
+Pick and place()
+    prompt user: "hoeveel blokjes? 1, 2, 3, 4"
+    if antw == 1
+        DO1 = 1;
+        PakBlok1()
+        PlaatsBlokGlijder()
+        prompt user: "Blok van glijder pakken?"
+        waitUntil DI1 == 1
+        PakBlokGlijder()
+        PlaatsBlokHouder1()
+
+    if antw == 2
+        DO1, DO2 = 1, 2
+        PakBlok1()
+        PlaatsBlokGlijder()
+        PakBlok2();
+        PlaatsBlokGlijder()
+        prompt user: "Blok van glijder pakken?"
+        waitUntil DI1 == 1
+        PakBlokGlijder()
+        PlaatsBlokHouder1()
+        PakBlokGlijder()
+        PlaatsBlokHouder2()
+
+    if antw == 3
+        DO1, DO2, DO3 = 1
+        PakBlok1()
+        PlaatsBlokGlijder()
+        PakBlok2()
+        PlaatsBlokGlijder()
+        PakBlok3()
+        PlaatsBlokGlijder()
+        prompt user: "Blok van glijder pakken?"
+        waitUntil DI1 == 1
+        PakBlokGlijder()
+        PlaatsBlokHouder1()
+        PakBlokGlijder()
+        PlaatsBlokHouder2()
+        PakBlokGlijder()
+        PlaatsBlokHouder3()
+
+     if antw == 4
+        DO1, DO2, DO3, DO4 = 1
+        PakBlok1()
+        PlaatsBlokGlijder()
+        PakBlok2()
+        PlaatsBlokGlijder()
+        PakBlok3()
+        PlaatsBlokGlijder()
+        PakBlok4()
+        PlaatsBlokGlijder()
+        prompt user: "Blok van glijder pakken?"
+        waitUntil DI1 == 1
+        PakBlokGlijder()
+        PlaatsBlokHouder1()
+        PakBlokGlijder()
+        PlaatsBlokHouder2()
+        PakBlokGlijder()
+        PlaatsBlokHouder3()
+        PakBlokGlijder()
+        PlaatsBlokHouder4()
+
+
